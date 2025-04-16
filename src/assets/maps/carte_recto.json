@@ -1344,7 +1344,7 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"type",
+                         "name":"item_name",
                          "type":"string",
                          "value":"camera"
                         }],
