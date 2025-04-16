@@ -932,6 +932,11 @@
                          "value":2
                         }, 
                         {
+                         "name":"style",
+                         "type":"string",
+                         "value":"fire"
+                        }, 
+                        {
                          "name":"target",
                          "type":"int",
                          "value":2
