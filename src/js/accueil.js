@@ -27,7 +27,7 @@ export default class accueil extends Phaser.Scene {
     button.setInteractive();    
     button.on("pointerover", () => {
       button.setScale(1.2);
-      button.setTint(0xFF0000);
+      button.setTint(0xC0C0C0);
     });
     button.on("pointerout", () => {
       button.setScale(1.0);
