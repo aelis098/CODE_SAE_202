@@ -922,34 +922,6 @@
                 }, 
                 {
                  "height":0,
-                 "id":8,
-                 "name":"portal",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"id",
-                         "type":"int",
-                         "value":3
-                        }, 
-                        {
-                         "name":"style",
-                         "type":"string",
-                         "value":"air"
-                        }, 
-                        {
-                         "name":"target",
-                         "type":"int",
-                         "value":3
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":148.443518812572,
-                 "y":1022.3495061567
-                }, 
-                {
-                 "height":0,
                  "id":24,
                  "name":"enemy_1",
                  "point":true,
@@ -1076,6 +1048,24 @@
                  "width":0,
                  "x":110.152984905252,
                  "y":381.505570739598
+                }, 
+                {
+                 "height":0,
+                 "id":31,
+                 "name":"destination",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"id",
+                         "type":"int",
+                         "value":2
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":143.052070953827,
+                 "y":1023.81266781108
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1084,7 +1074,7 @@
          "y":0
         }],
  "nextlayerid":8,
- "nextobjectid":30,
+ "nextobjectid":32,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
