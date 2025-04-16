@@ -1347,11 +1347,6 @@
                          "name":"item_type",
                          "type":"string",
                          "value":"camera"
-                        }, 
-                        {
-                         "name":"type",
-                         "type":"string",
-                         "value":"camera"
                         }],
                  "rotation":0,
                  "type":"",
