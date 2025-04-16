@@ -1265,7 +1265,7 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"item_type",
+                         "name":"style",
                          "type":"string",
                          "value":"tablette"
                         }],
@@ -1283,7 +1283,7 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"item_type",
+                         "name":"style",
                          "type":"string",
                          "value":"illustrator"
                         }],
@@ -1301,7 +1301,7 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"item_type",
+                         "name":"style",
                          "type":"string",
                          "value":"photoshop"
                         }],
@@ -1319,7 +1319,7 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"item_type",
+                         "name":"style",
                          "type":"string",
                          "value":"cable"
                         }],
@@ -1355,7 +1355,7 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"item_type",
+                         "name":"style",
                          "type":"string",
                          "value":"cartesim"
                         }],
@@ -1373,9 +1373,9 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"item_type",
+                         "name":"style",
                          "type":"string",
-                         "value":"ordinateur "
+                         "value":"ordinateur"
                         }],
                  "rotation":0,
                  "type":"",
