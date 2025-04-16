@@ -189,7 +189,7 @@ imgFilesName.forEach(fileName => {
         // chargement de la map recto pour extraction du nombre d'item / monster
         var map = this.make.tilemap({ key: 'map_recto' });
         var tab_objects = map.getObjectLayer("object_layer");
-        var remainingItems = 0;
+        var remainingItems = 7;
         var remainingMonsters = 0;
         tab_objects.objects.forEach(point => {
             if (point.name.startsWith("enemy_")) {

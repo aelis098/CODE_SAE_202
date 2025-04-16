@@ -1,11 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json"
-        }
-    },
  "height":128,
  "infinite":false,
  "layers":[
@@ -1344,7 +1337,7 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"item_type",
+                         "name":"style",
                          "type":"string",
                          "value":"camera"
                         }],

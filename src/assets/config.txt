@@ -23,4 +23,4 @@ enemy_2_move_right.nbFrames=3
 enemy_2_shoot_right.nbFrames=2
 enemy_3_stand_right.nbFrames=1
 enemy_3_shoot_right.nbFrames=2
-projectile_player2.nbFrames=1
+projectile_player.nbFrames=1
