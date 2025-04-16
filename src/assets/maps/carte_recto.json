@@ -1344,7 +1344,12 @@
                  "point":true,
                  "properties":[
                         {
-                         "name":"type",
+                         "name":"item_name",
+                         "type":"string",
+                         "value":"camera"
+                        }, 
+                        {
+                         "name":"item_type",
                          "type":"string",
                          "value":"camera"
                         }],
@@ -1423,6 +1428,39 @@
                  "width":0,
                  "x":1345.86838198911,
                  "y":544.285007422068
+                }, 
+                {
+                 "height":0,
+                 "id":56,
+                 "name":"powerUp",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"item_description",
+                         "type":"string",
+                         "value":"vous venez d'apprendre \u00e0a utiliser une camera "
+                        }, 
+                        {
+                         "name":"item_effect",
+                         "type":"int",
+                         "value":30
+                        }, 
+                        {
+                         "name":"item_name",
+                         "type":"string",
+                         "value":"camera"
+                        }, 
+                        {
+                         "name":"item_type",
+                         "type":"string",
+                         "value":"camera"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":279.011906877555,
+                 "y":289.674782299627
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1442,7 +1480,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":56,
+ "nextobjectid":57,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
