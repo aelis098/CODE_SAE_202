@@ -18,8 +18,8 @@ export default class interfaceJeu extends Phaser.Scene {
         this.remainingItems = this.sys.settings.data.remainingItems;
         this.destinationReached = false;
 
-        this.enemis_to_kill = this.sys.settings.data.remainingMonsters;;
-        this.items_to_collect = this.sys.settings.data.remainingItems;;
+        this.enemis_to_kill = this.sys.settings.data.remainingMonsters;
+        this.items_to_collect = this.sys.settings.data.remainingItems;
         // récupération des objectifs dans l'interface
         this.objectives = {};
         this.objectives["kill_them_all"] = this.game.config.objective_kill_them_all;
