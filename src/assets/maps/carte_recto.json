@@ -1344,6 +1344,11 @@
                  "point":true,
                  "properties":[
                         {
+                         "name":"item_description",
+                         "type":"string",
+                         "value":"une cam\u00e9ra "
+                        }, 
+                        {
                          "name":"item_name",
                          "type":"string",
                          "value":"camera"
@@ -1459,7 +1464,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
