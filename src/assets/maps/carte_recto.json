@@ -1344,6 +1344,11 @@
                  "point":true,
                  "properties":[
                         {
+                         "name":"item_type",
+                         "type":"string",
+                         "value":"camera"
+                        }, 
+                        {
                          "name":"type",
                          "type":"string",
                          "value":"camera"
