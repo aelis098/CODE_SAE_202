@@ -1346,7 +1346,7 @@
                         {
                          "name":"type",
                          "type":"string",
-                         "value":"camera"
+                         "value":"item_camera"
                         }],
                  "rotation":0,
                  "type":"",
