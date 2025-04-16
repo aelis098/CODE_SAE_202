@@ -869,8 +869,8 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":176.40030875241,
-                 "y":1021.06540741422
+                 "x":303.571524633303,
+                 "y":1054.02400667563
                 }, 
                 {
                  "height":0,
@@ -929,24 +929,24 @@
                         {
                          "name":"id",
                          "type":"int",
-                         "value":2
+                         "value":3
                         }, 
                         {
                          "name":"style",
                          "type":"string",
-                         "value":"fire"
+                         "value":"air"
                         }, 
                         {
                          "name":"target",
                          "type":"int",
-                         "value":2
+                         "value":3
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":111.424858428767,
-                 "y":381.763984575707
+                 "x":148.443518812572,
+                 "y":1022.3495061567
                 }, 
                 {
                  "height":0,
@@ -1048,6 +1048,34 @@
                  "width":0,
                  "x":1902.87948254847,
                  "y":61.9198396005167
+                }, 
+                {
+                 "height":0,
+                 "id":29,
+                 "name":"portal",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"id",
+                         "type":"int",
+                         "value":2
+                        }, 
+                        {
+                         "name":"style",
+                         "type":"string",
+                         "value":"fire"
+                        }, 
+                        {
+                         "name":"target",
+                         "type":"int",
+                         "value":2
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":110.152984905252,
+                 "y":381.505570739598
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1056,7 +1084,7 @@
          "y":0
         }],
  "nextlayerid":8,
- "nextobjectid":29,
+ "nextobjectid":30,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
