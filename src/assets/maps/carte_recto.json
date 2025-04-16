@@ -1344,6 +1344,11 @@
                  "point":true,
                  "properties":[
                         {
+                         "name":"item_description",
+                         "type":"string",
+                         "value":"Vous venez de recolter un appareil photo. Celui ci vous permettra de r\u00e9aliser vos projets d'audio-visuel tout au long de l'ann\u00e9e"
+                        }, 
+                        {
                          "name":"type",
                          "type":"string",
                          "value":"camera"
