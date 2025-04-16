@@ -21,5 +21,5 @@ player2_jump_right.nbFrames=2
 enemy_1_move_right.nbFrames=3
 enemy_2_move_right.nbFrames=3
 enemy_2_shoot_right.nbFrames=2
-enemy_3_move_right.nbFrames=3
+enemy_3_stand_right.nbFrames=3
 projectile_player.nbFrames=1
