@@ -1051,21 +1051,15 @@
                 }, 
                 {
                  "height":0,
-                 "id":31,
-                 "name":"destination",
+                 "id":32,
+                 "name":"target",
                  "point":true,
-                 "properties":[
-                        {
-                         "name":"id",
-                         "type":"int",
-                         "value":2
-                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":143.052070953827,
-                 "y":1023.81266781108
+                 "x":142.206268120944,
+                 "y":1021.6761010631
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1074,7 +1068,7 @@
          "y":0
         }],
  "nextlayerid":8,
- "nextobjectid":32,
+ "nextobjectid":33,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
