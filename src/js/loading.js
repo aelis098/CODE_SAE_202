@@ -56,6 +56,7 @@ imgFilesName.forEach(fileName => {
         this.load.image("button_back", "src/assets/images/button_back.png");
         this.load.image("button_play", "src/assets/images/button_play.png");
         this.load.image("button_controls", "src/assets/images/button_controls.png");
+        this.load.image("button_replay", "src/asset/images/button_replay.png");
 
         /* chargement des screens de fond */
         this.load.image("screen_welcome", "src/assets/images/screen_welcome.png");
