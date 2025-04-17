@@ -35,6 +35,19 @@ export default class lose extends Phaser.Scene {
     button_back.on("pointerup", () => {
       this.scene.start("accueil");
     });
+    button_replay.setInteractive();    
+    button_replay.on("pointerover", () => {
+      button_replay.setScale(1.1);
+      button_replay.setTint(0xC0C0C0);
+    });
+    button_replay.on("pointerout", () => {
+      button_replay.setScale(1.0);
+      button_replay.clearTint();
+    });
+
+    button_replay.on("pointerup", () => {
+      this.scene.start("map_recto");
+    });
 
     this.sound.stopByKey('son_game');
 

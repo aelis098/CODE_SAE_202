@@ -44,6 +44,7 @@ imgFilesName.forEach(fileName => {
         this.load.image('player_stand_right', './src/assets/spritesheets/player_stand_right_spritesheet.png');
         this.load.image('enemy_1_move_right', './src/assets/spritesheets/enemy_1_move_right_spritesheet.png');
         this.load.image('enemy_2_move_right', './src/assets/spritesheets/enemy_2_move_right_spritesheet.png');
+        this.load.image('enemy_3_stand_right', './src/assets/spritsheets/enemy_3_stand_right_spitsheets.png');
         this.load.image('enemy_3_move_right', './src/assets/spritesheets/enemy_3_move_right_spritesheet.png');
         this.load.image('enemy_3_jump_right', './src/assets/spritesheets/enemy_3_jump_right_spritesheet.png');
         this.load.image('enemy_4_move_right', './src/assets/spritesheets/enemy_4_move_right_spritesheet.png');
