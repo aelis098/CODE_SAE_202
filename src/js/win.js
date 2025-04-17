@@ -16,11 +16,8 @@ export default class win extends Phaser.Scene {
 
     const screen_win = this.add.image(this.game.config.width/2, this.game.config.height/2, "screen_win"); // Réglez la valeur selon vos besoins
 
-    const button_back = this.add.image(this.game.config.width/1.4, 600, "button_back"); // Réglez la valeur selon vos besoins
-    const button_replay = this.add.image(this.game.config.width/3.4, 600, "button_replay"); // Réglez la valeur selon vos besoins
+    const button_back = this.add.image(this.game.config.width/2, 600, "button_back"); // Réglez la valeur selon vos besoins
     
-
-
     
     button_back.setInteractive();    
     button_back.on("pointerover", () => {
@@ -35,10 +32,7 @@ export default class win extends Phaser.Scene {
     button_back.on("pointerup", () => {
       this.scene.start("accueil");
     });
-
-   // Stop the sound from the previous scene
-   this.sound.stopByKey('son_game');
-
+   
    if (!this.sound.get('son_win')) {
      console.warn('Sound "son_win" not found in the sound manager.');
     
