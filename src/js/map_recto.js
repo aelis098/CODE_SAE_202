@@ -187,6 +187,15 @@ export default class map_recto extends Phaser.Scene {
     }
     this.game.config.sceneTarget = "recto";
 
+    if (this.sound.get("son_intro")) {
+      this.sound.stopByKey("son_intro");
+    }
+     if (!this.sound.get('son_game')) {
+            console.warn("Le son 'son_game' n'est pas chargé dans la scène.");
+        } else {
+          this.sound.play('son_game', { loop: true });
+        }
+
   }
 
   update() {

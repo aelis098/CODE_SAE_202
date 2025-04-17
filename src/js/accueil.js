@@ -38,17 +38,29 @@ export default class accueil extends Phaser.Scene {
     bouton_play.on("pointerup", () => {
       this.scene.stop("pagedelancement");
       this.scene.start("story");
-    });
-    bouton_credits.on("pointerup", () => {
+  });
+  
+  bouton_credits.on("pointerup", () => {
       this.scene.switch("credits");
-    });
-     bouton_controls.on("pointerup", () => {
+  });
+  
+  bouton_controls.on("pointerup", () => {
       this.scene.switch("controls");
-    });
-    }
+  });
 
-    udpate() {
+  if (this.sound.get("son_win")) {
+      this.sound.stopByKey("son_win");
+  }
+  
+  if (this.sound.get("son_game_over")) {
+      this.sound.stopByKey("son_game_over");
+  }
+  
+  if (this.sound.get("son_intro")) {
+      this.sound.play("son_intro", { loop: true });
+  }
+}
 
-    }
-
+update() {
+}
 }
