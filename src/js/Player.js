@@ -486,11 +486,11 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
         }
 
         // action de tir 
-        if (this.fireKey.isDown && this.isShooting == false) {
+        if (this.fireKey.isDown && this.isShooting == true) {
             this.isShooting = true;
             this.fire();
             this.scene.time.delayedCall(this.getCoolDownDuration(), () => {
-                this.isShooting = false;
+                this.isShooting = true;
             });
         }
         // Si attaque au corps à corps : mise à jour de l'arme de poing
