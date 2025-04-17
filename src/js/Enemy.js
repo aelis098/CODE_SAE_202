@@ -69,7 +69,7 @@ export default class Enemy extends Phaser.Physics.Arcade.Sprite {
         }
 
 
-        // ennemy type 3 : saut aléatoire
+        // ennemi type 3 : saut aléatoire
         if (this.type == 3) {
             this.monTimer = this.scene.time.addEvent({
                 delay: Phaser.Math.Between(2000, 6000), // ms
@@ -85,7 +85,7 @@ export default class Enemy extends Phaser.Physics.Arcade.Sprite {
             });
         }
 
-        // ennemy type 4 : déplacement en tween
+        // ennemi type 4 : déplacement en tween
         if (this.type == 4) {
             this.body.setAllowGravity(false);
             this.body.allowGravity = false;
